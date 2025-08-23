@@ -1,24 +1,24 @@
-"use client"
+"use client";
 
-import { create } from "zustand"
-import { persist } from "zustand/middleware"
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
 interface User {
-  id: string
-  name: string
-  email: string
+  id: string;
+  name: string;
+  email: string;
 }
 
 interface AuthStore {
-  user: User | null
-  login: (user: User) => void
-  logout: () => void
-  isAuthenticated: boolean
+  user: User | null;
+  login: (user: User) => void;
+  logout: () => void;
+  isAuthenticated: boolean;
 }
 
 export const useAuth = create<AuthStore>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       user: null,
       isAuthenticated: false,
       login: (user: User) => set({ user, isAuthenticated: true }),
@@ -26,6 +26,6 @@ export const useAuth = create<AuthStore>()(
     }),
     {
       name: "auth-storage",
-    },
-  ),
-)
+    }
+  )
+);
