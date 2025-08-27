@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la première chose à faire en cas d'électrocution ?",
+    "options": [
+      "Toucher immédiatement la personne pour l'aider",
+      "Couper l'alimentation électrique avant d'intervenir",
+      "Verser de l'eau sur la personne",
+      "Appeler les secours sans rien faire d'autre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Il faut toujours couper l'alimentation électrique avant de porter secours pour éviter de s'électrocuter à son tour.",
+    "category": "urgence"
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la tension considérée comme dangereuse pour l'homme ?",
+    "options": ["12V", "24V", "50V", "220V"],
+    "correctAnswer": 2,
+    "explanation": "À partir de 50V en courant alternatif, la tension devient dangereuse pour l'homme dans des conditions normales.",
+    "category": "prevention"
+  },
+  {
+    "id": 3,
+    "question": "Dans une salle de bain, à quelle distance minimum du bord de la baignoire peut-on installer une prise électrique ?",
+    "options": [
+      "1 mètre",
+      "2 mètres",
+      "3 mètres",
+      "Aucune prise n'est autorisée"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Les prises électriques doivent être installées à au moins 3 mètres du bord de la baignoire pour respecter les volumes de sécurité.",
+    "category": "installation"
+  },
+  {
+    "id": 4,
+    "question": "Que signifie l'indice de protection IP44 ?",
+    "options": [
+      "Protection contre les projections d'eau",
+      "Protection contre l'immersion",
+      "Protection contre la poussière uniquement",
+      "Aucune protection particulière"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IP44 signifie protection contre les corps solides > 1mm et protection contre les projections d'eau de toutes directions.",
+    "category": "installation"
+  },
+  {
+    "id": 5,
+    "question": "À quelle fréquence doit-on tester un disjoncteur différentiel ?",
+    "options": [
+      "Une fois par an",
+      "Une fois par mois",
+      "Une fois par semaine",
+      "Jamais, il se teste automatiquement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Il est recommandé de tester le disjoncteur différentiel une fois par mois en appuyant sur le bouton test.",
+    "category": "maintenance"
+  },
+  {
+    "id": 6,
+    "question": "Quel équipement doit obligatoirement être porté lors d'une intervention sur un tableau électrique ?",
+    "options": [
+      "Des lunettes de soleil",
+      "Des gants isolants",
+      "Un casque audio",
+      "Des chaussures ouvertes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Les gants isolants sont essentiels pour se protéger contre les risques d'électrocution lors d'une intervention sur un tableau électrique.",
+    "category": "prevention"
+  },
+  {
+    "id": 7,
+    "question": "Que faut-il vérifier avant de remplacer une ampoule ?",
+    "options": [
+      "Que l'interrupteur est en position off",
+      "Que la tension de l'ampoule est compatible avec le luminaire",
+      "Que l'ampoule est froide",
+      "Toutes ces réponses"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Il est important de vérifier que l'interrupteur est off, que la tension est compatible et que l'ampoule est froide pour éviter tout risque.",
+    "category": "maintenance"
+  },
+  {
+    "id": 8,
+    "question": "Quel est le rôle d'un disjoncteur différentiel ?",
+    "options": [
+      "Protéger contre les courts-circuits uniquement",
+      "Protéger contre les surcharges uniquement",
+      "Détecter les fuites de courant vers la terre",
+      "Réguler la tension du réseau"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Le disjoncteur différentiel détecte les fuites de courant vers la terre et coupe l'alimentation pour éviter les accidents.",
+    "category": "installation"
+  },
+  {
+    "id": 9,
+    "question": "Quelle est la première étape avant toute opération de maintenance électrique ?",
+    "options": [
+      "Lire le manuel d'utilisation",
+      "Couper l'alimentation électrique",
+      "Porter des lunettes de protection",
+      "Appeler un collègue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Il faut toujours couper l'alimentation électrique avant toute opération de maintenance pour garantir la sécurité.",
+    "category": "maintenance"
+  },
+  {
+    "id": 10,
+    "question": "Quel symbole indique un appareil électrique protégé contre l'eau ?",
+    "options": ["IP suivi de deux chiffres", "CE", "NF", "Un triangle jaune"],
+    "correctAnswer": 0,
+    "explanation": "Le symbole IP suivi de deux chiffres indique le niveau de protection contre l'eau et la poussière d'un appareil électrique.",
+    "category": "installation"
+  }
+]
